@@ -11,11 +11,11 @@ function App() {
   return (
     <div>
       <header>Frank's TO-DO List</header>
-      
+
       <Form input={input} setInput={setInput}
         todos={todos} setTodos={setTodos} />
 
-      <TodoLists todos={todos} />
+      <TodoLists todos={todos} setTodos={setTodos}/>
     </div>
   );
 }
