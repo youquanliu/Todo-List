@@ -13,4 +13,3 @@ A one page to-do list app
 
 Run npm start 
 
-### Click to [view the page](https://youquanliu.github.io/Todo-List/)
